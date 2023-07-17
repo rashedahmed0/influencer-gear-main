@@ -6,6 +6,15 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.btn {
+    border: 1px solid #E02C6D;
+    background-color: #E02C6D;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+
+}
+
 .container {
     width: 80%;
     margin: auto;
@@ -43,4 +52,49 @@ header {}
 .nav ul li a {
     color: #3A3A3A;
     font-size: 16px;
+}
+
+/* banner section */
+.banner {
+    margin-top: 50px;
+}
+
+.banner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-text {
+    flex-basis: 45%;
+}
+
+.banner-text h1 {
+    color: #3A3A3A;
+    font-size: 35px;
+    font-weight: 900;
+
+}
+
+.banner-text p {
+    color: #3A3A3A;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 14px;
+
+
+
+}
+
+.banner-text a {}
+
+.banner-img {
+    background-image: url(./images/Circle\ design.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    flex-basis: 45%;
+}
+
+.banner-img img {
+    width: 100%;
 }
