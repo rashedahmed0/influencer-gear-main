@@ -98,3 +98,18 @@ header {}
 .banner-img img {
     width: 100%;
 }
+
+/* sponser section */
+.sponser {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.sponser-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sponser-logo {}
+
+.sponser-logo img {}
