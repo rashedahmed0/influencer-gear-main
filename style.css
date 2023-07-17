@@ -77,11 +77,11 @@ header {}
 }
 
 .banner-text p {
-    color: #3A3A3A;
-    margin-top: 10px;
-    margin-bottom: 30px;
+    color: #6C6C6C;
     font-size: 14px;
-
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin-top: 15px;
 
 
 }
@@ -178,3 +178,40 @@ header {}
 }
 
 .star .fa-star {}
+
+/* feature section */
+.feature {}
+
+.feature-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature-img {
+    flex-basis: 45%;
+}
+
+.feature-img img {
+    width: 100%;
+}
+
+.feature-text {
+    flex-basis: 45%;
+}
+
+.feature-text h1 {
+    color: #3A3A3A;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.feature-text p {
+    color: #6C6C6C;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.feature-text a {}
