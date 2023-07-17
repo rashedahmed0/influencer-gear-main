@@ -215,3 +215,36 @@ header {}
 }
 
 .feature-text a {}
+
+/* footer section */
+footer {
+    margin-top: 100px;
+    background: #0A0826;
+    padding: 50px 0;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+}
+
+.footer h1 {
+
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.footer p {
+    font-size: 14px;
+    font-weight: 500;
+
+    margin-top: 15px;
+}
+
+.footer .fa-brands {
+    margin-top: 30px;
+    margin: 20px;
+    background-color: #2c2c2c;
+    padding: 10px;
+    border-radius: 50%;
+}
