@@ -258,6 +258,7 @@ footer {
 @media(max-width:576px) {
     .banner-content {
         flex-direction: column;
+        text-align: center;
     }
 
     .collection-content {
@@ -292,5 +293,19 @@ footer {
         margin-bottom: 20px;
         margin-top: 20px;
 
+    }
+
+    .banner-text {
+        margin-bottom: 40px;
+    }
+
+    .collection-card {
+        padding-bottom: 28%;
+        margin-bottom: 40px;
+    }
+
+    .feature-text {
+        margin-bottom: 40px;
+        text-align: center;
     }
 }
